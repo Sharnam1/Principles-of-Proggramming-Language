@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  clrscr();
+  int x,y;
+  scanf("%d%d",&x,&y);
+  int result1,result2;
+  result1=(x+y)/(x-y);
+  result2=(x+y)*(x-y);
+  printf("result is:%d %d",result1,result2);
+  getch();
+ }
